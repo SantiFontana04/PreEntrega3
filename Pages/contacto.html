@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="icon" href="../Imagenes/favicon.ico" type="image">
+    <meta name="description" content="Esta página es para tener un sitio web de La Atajada ">
+    <meta name="author" content="Santiago Fontana">
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="../Img/Logo.png" alt="Logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="../index.html">Home</a></li>
+                <li class="header__nav-item"><a href="productos.html">Productos</a></li>
+                <li class="header__nav-item"><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                <li class="header__nav-item"><a href="preguntas.html">Preguntas</a></li>
+                <li class="header__nav-item"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--HEADER ENDS-->
+
+    <!--MAIN-->
+    <section class="form" id="contact">
+        <h2 class="form__title">CONTACTO</h2>
+        <form class="form__form">
+            <div class="form__input-container">
+                <label>Nombre completo
+                    <input type="text" placeholder="Nombre" required>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>Email
+                    <input type="email" placeholder="ejemplo@gmail.com" required>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>Mensaje
+                    <textarea placeholder="Tu mensaje..." required></textarea>
+                </label>
+            </div>
+            <div class="form__input-container">
+                    <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+        <!--MAIN ENDS-->
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <section>
+                <strong>La Atajada</strong> - Copyright
+            </section>
+        </footer>
+        <!--FOOTER ENDS-->
+</body>
+</html>
